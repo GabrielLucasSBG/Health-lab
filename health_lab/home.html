@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg bg-true-color">
+        <a href="home.html">
+            <div style="text-align: center;"><img src="images/logo-pcmso.png" class="img-fluid" style="width: 80px; height: 80px;" alt="Responsive image"></div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-list icon"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="agendar-exame.html">Cadastro Exame</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="pesquisar-exame.html">Pesquisar Exame</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled text-white" href="calendario.html">Calendário</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="relatorio.html">Relatórios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="ficha-clinica.html">Criação ficha clínica</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="atestado-saude.html">Atestado de saúde</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="inss.html">INSS Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="perfil-epidemiologico.html">Ficha Epidemiológica</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <section class="limite-site body-section">
+        <p>
+            O Programa de Controle Médico de Saúde Ocupacional - PCMSO é um procedimento legal estabelecido pela Consolidação das Leis do Trabalho, no Brasil, mediante a Norma Regulamentadora 7, visando proteger a Saúde Ocupacional dos trabalhadores.
+        </p>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="data:image/jpeg;base64,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"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Importância dos exames</h5>
+                            <p class="card-text">Cuidar da saúde depende de atenção e prevenção. Para tanto, deve-se adotar uma alimentação adequada, fazer exercícios físicos regulares e cultivar outros hábitos saudáveis...</p>
+                            <a href="https://www.hipolabor.com.br/blog/hipolabor-explica-a-real-importancia-dos-exames-de-rotina/#:~:text=Muitas%20pessoas%20n%C3%A3o%20v%C3%A3o%20ao,como%20c%C3%A2ncer%20e%20doen%C3%A7as%20degenerativas." target="_blank" class="btn btn-color">Veja mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://drauziovarella.uol.com.br/wp-content/uploads/2011/04/Depositphotos_192611494_s-2019-e1582058303300.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Como se cuidar?</h5>
+                            <p class="card-text">Com o slogan “Para a vida continuar, é preciso se cuidar! Faça a sua parte contra a Covid-19”, a campanha será veiculada no Facebook, Instagram, Linkedin...</p>
+                            <a href="http://www.ans.gov.br/aans/noticias-ans/coronavirus-covid-19/coronavirus-todas-as-noticias/6255-para-a-vida-continuar-e-preciso-se-cuidar" target="_blank" class="btn btn-color">Veja mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dmlydXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Covid</h5>
+                            <p class="card-text">A doença do coronavírus (COVID-19) é uma doença infecciosa causada por um coronavírus recém-descoberto.</p>
+                            <a href="https://covid.saude.gov.br/" target="_blank" class="btn btn-color">Veja mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="tx-align-center margin-top-bot">
+            <a href="http://www.sgc.goias.gov.br/upload/arquivos/2012-11/modelo-de-pcmso.pdf" target="_blank" class="home-button">Documento PCMSO</a>
+        </div>
+
+    </section>
+    <footer>
+        <section class="limite-site">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h4>Contato:</h4>
+                        ENDEREÇO: Rua dos médicos, 200<br>TELEFONE: (99) 99999-9999<br> CEP: 32000-00
+                    </div>
+                    <div class="col">
+                        <h4>Mapa:</h4>
+                        <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=pt_BR&amp;geocode=&amp;&amp;ie=UTF8&amp;hnear=&amp;q=Rua+Imbuia%2C+1200+-+Jardim+Laguna+-+Contagem%2FMG+-+CEP%3A+32140250&amp;spn=&amp;z=15&amp;output=embed" style="border:0; width: 100%; height: 100px;"
+                            allowfullscreen=""></iframe>
+                    </div>
+                    <div class="col">
+                        <h4>Redes Sociais:</h4>
+                        <i class="bi bi-instagram icon"></i>
+                        <i class="bi bi-facebook icon"></i>
+                        <i class="bi bi-linkedin icon"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>

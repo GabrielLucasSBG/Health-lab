@@ -1,0 +1,288 @@
+body {
+    background-image: url("/images/bg-hl.png");
+}
+
+.background-cinza {
+    background-color: #E8E8E8;
+    border-radius: 20px;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.background-relatorios {
+    vertical-align: middle;
+    text-align: center;
+    background-color: #E8E8E8;
+    border-radius: 20px;
+    width: 50%;
+    height: auto;
+    margin-left: 27%;
+}
+
+img {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.esqueceu-a-senha {
+    font-size: 12px;
+    margin-right: 102px;
+    margin-top: -20px;
+    text-align: right;
+}
+
+.main-section {
+    margin: 80px 0px 100px 0px;
+}
+
+footer {
+    font-weight: 500;
+    background-color: #011638;
+    text-align: left;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.title-h2 {
+    color: #00305b;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.limite-site {
+    display: block;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bg-true-color {
+    background-color: #011638;
+    color: white !important;
+    text-decoration: none;
+}
+
+.bg-true-color>a {
+    color: white;
+}
+
+.home-button {
+    cursor: pointer;
+    text-decoration: none;
+    margin: 40px 0px 40px 0px;
+    padding: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    width: 250px;
+    height: 60px;
+    border: 1px solid black;
+    background-color: #0D1398;
+    color: white;
+}
+
+.home-button:hover {
+    border: 1px solid #0D1398;
+    background-color: transparent;
+    color: #0D1398;
+}
+
+.btn-color {
+    font-weight: 500;
+    color: white;
+    background-color: #0D1398;
+}
+
+.btn:hover {
+    font-weight: 500;
+    color: #0D1398 !important;
+    border: solid 1px #0D1398;
+    background-color: transparent !important;
+}
+
+.search-button {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.search-button:hover {
+    border: 1px solid #00305b;
+    background-color: white;
+    color: #00305b;
+}
+
+.form-button {
+    margin-left: 47%;
+    border: 1px solid #00305b;
+    background-color: transparent;
+    color: #00305b;
+}
+
+.form-button:hover {
+    border: 1px solid white;
+    background-color: #00305b;
+    color: white;
+}
+
+.text-white {
+    color: white;
+}
+
+.white-text-centered {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00305b;
+}
+
+.body-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.icon {
+    font-size: 32px;
+    color: white !important;
+}
+
+.inputForm {
+    margin-left: 30%;
+    width: 40%;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #00305b;
+}
+
+.tx-align-center {
+    text-align: center;
+}
+
+.margin-top-bot {
+    margin: 50px 0px 50px 0px;
+}
+
+Edit in JSFiddle Result HTML CSS JavaScript Resources
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.clearfix::after,
+.calendar ol::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+/* ================
+Calendar Styling */
+
+.calendar {
+    border-radius: 10px;
+}
+
+.month {
+    font-size: 2rem;
+}
+
+@media (min-width: 992px) {
+    .month {
+        font-size: 3.5rem;
+    }
+}
+
+.calendar ol li {
+    float: left;
+    width: 14.28571%;
+}
+
+.calendar .day-names {
+    border-bottom: 1px solid #eee;
+}
+
+.calendar .day-names li {
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.calendar .days li {
+    border-bottom: 1px solid #eee;
+    min-height: 8rem;
+}
+
+.calendar .days li .date {
+    margin: 0.5rem 0;
+}
+
+.calendar .days li .event {
+    font-size: 0.75rem;
+    padding: 0.4rem;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 4rem;
+    margin-bottom: 1px;
+}
+
+.calendar .days li .event.span-2 {
+    width: 200%;
+}
+
+.calendar .days li .event.begin {
+    border-radius: 1rem 0 0 1rem;
+}
+
+.calendar .days li .event.end {
+    border-radius: 0 1rem 1rem 0;
+}
+
+.calendar .days li .event.clear {
+    background: none;
+}
+
+.calendar .days li:nth-child(n+29) {
+    border-bottom: none;
+}
+
+.calendar .days li.outside .date {
+    color: #ddd;
+}
+
+@media screen and (max-width: 500px) {
+    .form-button {
+        margin-left: 43%;
+        border: 1px solid #00305b;
+        background-color: transparent;
+        color: #00305b;
+    }
+    .inputForm {
+        margin-left: 10%;
+        width: 80%;
+        height: 35px;
+        margin-bottom: 20px;
+        border-radius: 6px;
+        border: 1px solid #00305b;
+    }
+    .background-cinza {
+        background-color: #E8E8E8;
+        border-radius: 20px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .limite-site {
+        display: block;
+        max-width: 450px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
